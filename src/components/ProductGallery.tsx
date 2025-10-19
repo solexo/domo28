@@ -186,8 +186,8 @@ const ProductGallery = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* En-tête de section */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Nos <span className="text-transparent bg-clip-text bg-gradient-to-r from-black to-yellow-400">Équipements Domotiques</span>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4 animate-pulse">
+            Nos <span className="text-transparent bg-clip-text bg-gradient-to-r from-black to-yellow-400 animate-bounce">Équipements Domotiques</span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             🔥 <strong>Découvrez notre gamme complète</strong> d'équipements domotiques de dernière génération ! 
