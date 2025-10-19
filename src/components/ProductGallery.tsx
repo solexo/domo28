@@ -5,7 +5,7 @@ const products = [
   {
     id: 'i40',
     name: 'Serrure Intelligente I40',
-    image: '/images/WhatsApp Image 2025-09-11 at 15.47.22 (1).jpeg',
+    image: '/images/i40 (2).webp',
     features: [
       'Application mobile',
       'Empreinte digitale',
@@ -15,6 +15,20 @@ const products = [
       'Mot de passe'
     ],
     description: 'Serrure premium avec écran tactile et reconnaissance faciale avancée'
+  },
+  {
+    id: 'i30',
+    name: 'Serrure Intelligente I30',
+    image: '/images/i30.avif',
+    features: [
+      'Application mobile',
+      'Empreinte digitale',
+      'Face ID',
+      'Carte NFC',
+      'Clé traditionnelle',
+      'Mot de passe'
+    ],
+    description: 'Serrure intelligente I30 avec toutes les fonctionnalités avancées comme l\'I40'
   },
   {
     id: 'i29',
