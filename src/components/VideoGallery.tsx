@@ -7,55 +7,55 @@ const VideoGallery = () => {
       id: 'DOmVVEzCN9t',
       url: 'https://www.instagram.com/domo_28/reel/DOmVVEzCN9t/?hl=am-et',
       title: 'Installation Domotique',
-      visual: '🏠'
+      visual: ''
     },
     {
       id: 'DO1_vWDiIfK',
       url: 'https://www.instagram.com/domo_28/reel/DO1_vWDiIfK/?hl=am-et',
       title: 'Installation Domotique',
-      visual: '🔐'
+      visual: ''
     },
     {
       id: 'DO9QCuKCPjh',
       url: 'https://www.instagram.com/domo_28/reel/DO9QCuKCPjh/?hl=am-et',
       title: 'Installation Domotique',
-      visual: '📱'
+      visual: ''
     },
     {
       id: 'DPRnYGhCODY',
       url: 'https://www.instagram.com/domo_28/reel/DPRnYGhCODY/?hl=am-et',
       title: 'Installation Domotique',
-      visual: '🛡️'
+      visual: ''
     },
     {
       id: 'DP9OwL6iHlA',
       url: 'https://www.instagram.com/domo_28/reel/DP9OwL6iHlA/?hl=am-et',
       title: 'Installation Domotique',
-      visual: '💡'
+      visual: ''
     },
     {
       id: 'DO7CvcziLTk',
       url: 'https://www.instagram.com/domo_28/reel/DO7CvcziLTk/?hl=am-et',
       title: 'Installation Domotique',
-      visual: '⚡'
+      visual: ''
     },
     {
       id: 'DOY_dcMCCka',
       url: 'https://www.instagram.com/reel/DOY_dcMCCka/',
       title: 'Installation Domotique',
-      visual: '🎯'
+      visual: ''
     },
     {
       id: 'DOW0odTCKqa',
       url: 'https://www.instagram.com/reel/DOW0odTCKqa/?hl=fr',
       title: 'Installation Domotique',
-      visual: '🔧'
+      visual: ''
     },
     {
       id: 'DNJpBIio_Bo',
       url: 'https://www.instagram.com/reel/DNJpBIio_Bo/',
       title: 'Installation Domotique',
-      visual: '🚀'
+      visual: ''
     }
   ];
 
