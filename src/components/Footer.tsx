@@ -123,7 +123,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm">
-              © 2025 DOMO28. Tous droits réservés. Spécialiste en serrures intelligentes.
+              © 2025 DOMO28. Tous droits réservés.
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <button 
