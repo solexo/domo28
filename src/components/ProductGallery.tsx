@@ -19,7 +19,7 @@ const products = [
   {
     id: 'i30',
     name: 'Serrure Intelligente I30',
-    image: '/images/i30.avif',
+    image: '/images/i30.jpg',
     features: [
       'Application mobile',
       'Empreinte digitale',
