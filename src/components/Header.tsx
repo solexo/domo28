@@ -73,31 +73,31 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-6">
             <button 
               onClick={() => scrollToSection('accueil')}
-              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-heading"
             >
               Accueil
             </button>
             <button 
               onClick={() => scrollToSection('produits')}
-              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-heading"
             >
               Produits
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-heading"
             >
               Services
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-heading"
             >
               Contact
             </button>
             <button 
               onClick={() => scrollToSection('videos')}
-              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-heading"
             >
               Vidéos
             </button>

@@ -20,7 +20,7 @@ const ScrollingProductMenu = () => {
   return (
     <section className="py-8 bg-gray-100 dark:bg-gray-800 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h3 className="text-center text-2xl font-bold text-gray-900 dark:text-white mb-6">
+        <h3 className="text-center text-2xl font-title text-gray-900 dark:text-white mb-6">
           Découvrez nos produits
         </h3>
         <div className="overflow-hidden">

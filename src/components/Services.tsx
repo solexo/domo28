@@ -46,7 +46,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* En-tête */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-title text-gray-900 dark:text-white mb-4">
             Nos <span className="text-transparent bg-clip-text bg-gradient-to-r from-black to-yellow-400">Services</span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
@@ -65,7 +65,7 @@ const Services = () => {
               <div className={`${service.color} mb-3 group-hover:scale-110 transition-transform duration-300`}>
                 {service.icon}
               </div>
-              <h3 className="text-base font-bold text-gray-900 dark:text-white mb-2 group-hover:text-yellow-500 transition-colors">
+              <h3 className="text-base font-heading text-gray-900 dark:text-white mb-2 group-hover:text-yellow-500 transition-colors">
                 {service.title}
               </h3>
               <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
@@ -78,7 +78,7 @@ const Services = () => {
         {/* Section processus d'installation */}
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 md:p-12 max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">
+            <h3 className="text-2xl md:text-3xl font-title text-gray-900 dark:text-white mb-4">
               Processus d'Installation
             </h3>
             <p className="text-gray-600 dark:text-gray-300 text-lg">

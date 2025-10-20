@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Polices professionnelles */
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-display {
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-heading {
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+  }
+  
+  .font-title {
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  
+  .font-hero {
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
+}

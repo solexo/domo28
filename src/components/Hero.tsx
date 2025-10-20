@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="space-y-8">
           {/* Logo et titre principal */}
           <div className="space-y-8">
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 dark:text-white leading-tight tracking-wide px-2">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-hero text-gray-900 dark:text-white leading-tight px-2">
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-yellow-500 dark:from-gray-200 dark:to-yellow-400">
                 Votre Maison De Demain
               </span>

@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import VideoGallery from './components/VideoGallery';
 import Footer from './components/Footer';
+import ChatBot from './components/ChatBot';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Contact />
       <VideoGallery />
       <Footer />
+      <ChatBot />
     </div>
   );
 }
