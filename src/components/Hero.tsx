@@ -1,5 +1,6 @@
 import React from 'react';
 import { Shield, Smartphone, Fingerprint, ArrowRight } from 'lucide-react';
+import ScrollingProductMenu from './ScrollingProductMenu';
 
 const Hero = () => {
   const scrollToProducts = () => {
@@ -32,10 +33,15 @@ const Hero = () => {
               </span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed mt-6">
-              🏠 <strong>Transformez votre maison en habitat intelligent</strong> avec nos solutions domotiques de dernière génération. 
-              🔐 Serrures connectées, 💡 éclairage intelligent, 🛡️ sécurité avancée et 📱 contrôle centralisé. 
+              🏠 <strong>Transformez votre maison en habitat intelligent</strong> avec nos solutions domotiques de dernière génération.
+              🔐 Serrures connectées, 💡 éclairage intelligent, 🛡️ sécurité avancée et 📱 contrôle centralisé.
               ⚡ Installation professionnelle incluse pour une maison du futur !
             </p>
+
+            {/* Scrolling Product Menu */}
+            <div className="mt-12">
+              <ScrollingProductMenu />
+            </div>
           </div>
 
           {/* Caractéristiques principales */}

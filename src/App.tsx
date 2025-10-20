@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ProductGallery from './components/ProductGallery';
+import ScrollingProductMenu from './components/ScrollingProductMenu';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import VideoGallery from './components/VideoGallery';
