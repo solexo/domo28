@@ -2,9 +2,6 @@ import React from 'react';
 import { Home, Phone, Mail, Clock, Shield, Award, Instagram, Facebook } from 'lucide-react';
 
 const Footer = () => {
-  const whatsappContact = () => {
-    window.open('https://wa.me/212660245937', '_blank');
-  };
 
   const openInstagram = () => {
     window.open('https://www.instagram.com/domo_28/', '_blank');
@@ -47,13 +44,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-3">
-              <button
-                onClick={whatsappContact}
-                className="flex items-center space-x-2 text-gray-400 hover:text-green-400 transition-colors"
-              >
+              <div className="flex items-center space-x-2 text-gray-400">
                 <Phone className="w-4 h-4" />
                 <span>+212 660 24 59 37</span>
-              </button>
+              </div>
               <div className="flex items-center space-x-2 text-gray-400">
                 <Phone className="w-4 h-4" />
                 <span>+212 669 15 42 35</span>
@@ -124,14 +118,6 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm">
               © 2025 DOMO28. Tous droits réservés.
-            </div>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <button 
-                onClick={whatsappContact}
-                className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors text-sm font-medium"
-              >
-                💬 WhatsApp
-              </button>
             </div>
           </div>
         </div>
