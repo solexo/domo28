@@ -9,15 +9,21 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/images/logob.jpeg",
-      "sizes": "192x192",
-      "type": "image/jpeg",
+      "src": "/icons/icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/images/logob.jpeg",
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
       "sizes": "512x512",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any"
     }
   ]
