@@ -42,7 +42,7 @@ const Hero = () => {
 
             {/* Version complète dès tablette */}
             <div className="hidden sm:block text-base md:text-lg text-gray-600 dark:text-gray-300 max-w-3xl w-full mx-auto leading-relaxed px-4 break-words whitespace-normal">
-              🏠 <strong>Transformez votre maison en habitat intelligent au Maroc</strong> avec nos solutions domotiques complètes. 🔐 Serrures intelligentes, 📹 caméras surveillance, 🚪 contrôle d'accès, 🪟 rideaux automatiques, 💡 éclairage intelligent, 🚪 portes automatiques, 🌱 agriculture intelligente et 📱 contrôle centralisé. ⚡ Installation professionnelle à Casablanca, Rabat, Marrakech pour une maison du futur !
+              🏠 <strong>Leader domotique Maroc - DOMO28</strong> transforme votre maison en habitat intelligent. 🔐 Installation serrures intelligentes Casablanca, 📹 caméras surveillance Rabat, 🚪 contrôle d'accès Marrakech, 🪟 rideaux automatiques, 💡 éclairage LED intelligent, 🚪 portes automatiques, 🌱 agriculture intelligente ferme connectée et 📱 contrôle centralisé. ⚡ Installation professionnelle domotique Maroc - Devis gratuit 24h !
             </div>
 
             {/* Scrolling Product Menu */}
