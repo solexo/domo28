@@ -44,4 +44,40 @@
     <priority>0.6</priority>
   </url>
   
+  <!-- Services spécialisés (pages virtuelles pour SEO) -->
+  <url>
+    <loc>https://domo28.vercel.app/#serrures-intelligentes</loc>
+    <lastmod>2025-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://domo28.vercel.app/#cameras-surveillance</loc>
+    <lastmod>2025-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://domo28.vercel.app/#controle-acces</loc>
+    <lastmod>2025-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://domo28.vercel.app/#eclairage-intelligent</loc>
+    <lastmod>2025-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://domo28.vercel.app/#agriculture-intelligente</loc>
+    <lastmod>2025-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
 </urlset>
