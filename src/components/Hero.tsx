@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Shield, Smartphone, Fingerprint, ArrowRight } from 'lucide-react';
 import ScrollingProductMenu from './ScrollingProductMenu';
 
