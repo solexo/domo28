@@ -63,7 +63,7 @@ const Hero = () => {
               <div className="text-3xl">🔐</div>
               <div>
                 <div className="font-bold text-gray-800 dark:text-gray-200">Sécurité Avancée</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Empreinte & NFC</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Face ID, Empreinte & NFC</div>
               </div>
             </div>
             <div className="flex items-center justify-center space-x-3 bg-white/90 dark:bg-black/90 backdrop-blur-sm p-6 rounded-2xl shadow-xl border border-yellow-300 dark:border-yellow-600 hover:scale-105 transition-transform">
