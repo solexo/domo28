@@ -6,37 +6,37 @@ const Services = () => {
     {
       icon: <Wrench className="w-8 h-8" />,
       title: 'Installation Professionnelle',
-      description: 'Nos techniciens certifiés installent votre serrure intelligente avec précision et soin.',
+      description: 'Installation serrures intelligentes Maroc par techniciens certifiés DOMO28. Service professionnel Casablanca, Rabat, Marrakech.',
       color: 'text-yellow-500'
     },
     {
       icon: <Shield className="w-8 h-8" />,
       title: 'Garantie 2 ans',
-      description: 'Tous nos produits sont couverts par une garantie complète de 2 ans pièces et main d\'œuvre.',
+      description: 'Garantie 2 ans complète DOMO28 Maroc : pièces, main d\'œuvre, support technique. Service après-vente domotique Casablanca.',
       color: 'text-blue-500'
     },
     {
       icon: <Clock className="w-8 h-8" />,
       title: 'Intervention Rapide',
-      description: 'Installation sous 48h après validation du devis. Service d\'urgence disponible.',
+      description: 'Intervention rapide Maroc : installation domotique sous 48h Casablanca, Rabat, Marrakech. Service urgence 24/7 disponible.',
       color: 'text-green-500'
     },
     {
       icon: <Users className="w-8 h-8" />,
       title: 'Formation Utilisateur',
-      description: 'Formation complète à l\'utilisation de votre nouvelle serrure intelligente.',
+      description: 'Formation utilisateur domotique Maroc : apprentissage complet systèmes intelligents, application mobile, sécurité maison connectée.',
       color: 'text-purple-500'
     },
     {
       icon: <Award className="w-8 h-8" />,
       title: 'Expertise Reconnue',
-      description: 'Plus de 500 installations réussies. Équipe d\'experts en domotique.',
+      description: 'DOMO28 Maroc : 500+ installations réussies, équipe experts domotique certifiés. Leader maison connectée Casablanca.',
       color: 'text-indigo-500'
     },
     {
       icon: <HeadphonesIcon className="w-8 h-8" />,
       title: 'Support Technique',
-      description: 'Assistance technique disponible 7j/7 pour tous vos besoins.',
+      description: 'Support technique domotique Maroc 7j/7 : assistance maisons connectées, dépannage urgence, maintenance préventive.',
       color: 'text-pink-500'
     }
   ];
@@ -50,8 +50,7 @@ const Services = () => {
             Nos <span className="text-transparent bg-clip-text bg-gradient-to-r from-black to-yellow-400">Services</span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Un service complet de A à Z : conseil, installation professionnelle, 
-            formation et maintenance pour votre tranquillité d'esprit.
+            Service domotique complet Maroc : installation serrures intelligentes Casablanca, caméras surveillance Rabat, contrôle accès Marrakech. Conseil expert, formation utilisateur, maintenance 7j/7 pour maisons connectées sécurisées.
           </p>
         </div>
 
@@ -79,10 +78,10 @@ const Services = () => {
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 md:p-12 max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-title text-gray-900 dark:text-white mb-4">
-              Processus d'Installation
+              Processus d'Installation Domotique Maroc
             </h3>
             <p className="text-gray-600 dark:text-gray-300 text-lg">
-              Une installation professionnelle en 4 étapes simples
+              Installation professionnelle maisons connectées Casablanca, Rabat, Marrakech en 4 étapes simples
             </p>
           </div>
 
