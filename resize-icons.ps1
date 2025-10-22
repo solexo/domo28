@@ -97,3 +97,4 @@ if ($successCount -eq $sizes.Count) {
 } else {
     Write-Host "⚠️  Some icons failed to create. Check the errors above." -ForegroundColor Yellow
 }
+

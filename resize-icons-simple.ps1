@@ -54,3 +54,4 @@ Create-Icon 512 "icon-512x512.png"
 $originalImage.Dispose()
 
 Write-Host "Icon resizing complete!"
+

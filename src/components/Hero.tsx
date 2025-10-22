@@ -41,7 +41,7 @@ const Hero = () => {
 
             {/* Version complète dès tablette */}
             <div className="hidden sm:block text-base md:text-lg text-gray-600 dark:text-gray-300 max-w-3xl w-full mx-auto leading-relaxed px-4 break-words whitespace-normal">
-              🏠 <strong>Transformez votre maison en habitat intelligent</strong> avec nos solutions domotiques de dernière génération. 🔐 Serrures connectées, 💡 éclairage intelligent, 🛡️ sécurité avancée et 📱 contrôle centralisé. ⚡ Installation professionnelle incluse pour une maison du futur !
+              🏠 <strong>Transformez votre maison en habitat intelligent au Maroc</strong> avec nos solutions domotiques de dernière génération. 🔐 Serrures connectées, 💡 éclairage intelligent, 🛡️ sécurité avancée et 📱 contrôle centralisé. ⚡ Installation professionnelle à Casablanca, Rabat, Marrakech pour une maison du futur !
             </div>
 
             {/* Scrolling Product Menu */}
