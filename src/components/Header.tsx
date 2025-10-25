@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Home, Menu, X, Phone, Moon, Sun } from 'lucide-react';
 
 const Header = () => {
@@ -70,37 +71,49 @@ const Header = () => {
           </div>
 
           {/* Navigation desktop */}
-          <nav className="hidden md:flex items-center space-x-6">
-            <button 
-              onClick={() => scrollToSection('accueil')}
-              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-heading"
+          <nav className="hidden lg:flex items-center space-x-2">
+            <Link
+              to="/"
+              className="px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-heading"
             >
               Accueil
-            </button>
-            <button 
-              onClick={() => scrollToSection('produits')}
-              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-heading"
+            </Link>
+            <Link
+              to="/serrure-intelligente"
+              className="px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-heading"
             >
-              Produits
-            </button>
-            <button 
-              onClick={() => scrollToSection('services')}
-              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-heading"
+              Serrure Intelligente
+            </Link>
+            <Link
+              to="/domotique-casablanca"
+              className="px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-heading"
             >
-              Services
-            </button>
-            <button 
-              onClick={() => scrollToSection('contact')}
-              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-heading"
+              Domotique Casablanca
+            </Link>
+            <Link
+              to="/cameras-surveillance"
+              className="px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-heading"
             >
-              Contact
-            </button>
-            <button 
-              onClick={() => scrollToSection('videos')}
-              className="text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-heading"
+              Caméras Surveillance
+            </Link>
+            <Link
+              to="/controle-acces"
+              className="px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-heading"
             >
-              Vidéos
-            </button>
+              Contrôle d'Accès
+            </Link>
+            <Link
+              to="/blog"
+              className="px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-heading"
+            >
+              Blog
+            </Link>
+            <Link
+              to="/#portfolio"
+              className="px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-heading"
+            >
+              Portfolio
+            </Link>
             <button 
               onClick={toggleDarkMode}
               className="p-2 text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors"
@@ -118,8 +131,8 @@ const Header = () => {
           </nav>
 
           {/* Menu mobile */}
-          <button 
-            className="md:hidden text-gray-700 dark:text-gray-300"
+          <button
+            className="lg:hidden text-gray-700 dark:text-gray-300"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -128,38 +141,50 @@ const Header = () => {
 
         {/* Menu mobile déployé */}
         {isMenuOpen && (
-          <div className="md:hidden bg-white dark:bg-black border-t border-gray-100 dark:border-gray-800 shadow-lg">
-            <nav className="px-4 py-4 space-y-4">
-              <button 
-                onClick={() => scrollToSection('accueil')}
-                className="block w-full text-left text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+          <div className="lg:hidden bg-white dark:bg-black border-t border-gray-100 dark:border-gray-800 shadow-lg">
+            <nav className="px-4 py-4 space-y-2">
+              <Link
+                to="/"
+                className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-medium"
               >
                 Accueil
-              </button>
-              <button 
-                onClick={() => scrollToSection('produits')}
-                className="block w-full text-left text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+              </Link>
+              <Link
+                to="/serrure-intelligente"
+                className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-medium"
               >
-                Produits
-              </button>
-              <button 
-                onClick={() => scrollToSection('services')}
-                className="block w-full text-left text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+                Serrure Intelligente
+              </Link>
+              <Link
+                to="/domotique-casablanca"
+                className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-medium"
               >
-                Services
-              </button>
-              <button 
-                onClick={() => scrollToSection('contact')}
-                className="block w-full text-left text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+                Domotique Casablanca
+              </Link>
+              <Link
+                to="/cameras-surveillance"
+                className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-medium"
               >
-                Contact
-              </button>
-              <button 
-                onClick={() => scrollToSection('videos')}
-                className="block w-full text-left text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+                Caméras Surveillance
+              </Link>
+              <Link
+                to="/controle-acces"
+                className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-medium"
               >
-                Vidéos
-              </button>
+                Contrôle d'Accès
+              </Link>
+              <Link
+                to="/blog"
+                className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-medium"
+              >
+                Blog
+              </Link>
+              <Link
+                to="/#portfolio"
+                className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-medium"
+              >
+                Portfolio
+              </Link>
               <button 
                 onClick={toggleDarkMode}
                 className="flex items-center space-x-2 w-full text-left text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"

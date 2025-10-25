@@ -50,7 +50,7 @@ const Services = () => {
             Nos <span className="text-transparent bg-clip-text bg-gradient-to-r from-black to-yellow-400">Services</span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Service domotique complet Maroc : installation serrures intelligentes Casablanca, caméras surveillance Rabat, contrôle accès Marrakech. Conseil expert, formation utilisateur, maintenance 7j/7 pour maisons connectées sécurisées.
+            Service domotique complet Maroc : installation serrures intelligentes Casablanca Rabat Marrakech Tanger, caméras surveillance Maroc, contrôle accès Maroc, éclairage intelligent Maroc, agriculture intelligente Maroc. Conseil expert, formation utilisateur, maintenance 7j/7 pour maisons connectées sécurisées. Domotique Casablanca, domotique Rabat, domotique Marrakech, domotique Tanger, serrure intelligente Maroc, caméras surveillance Casablanca, contrôle accès Rabat, éclairage intelligent Marrakech, agriculture intelligente Tanger.
           </p>
         </div>
 

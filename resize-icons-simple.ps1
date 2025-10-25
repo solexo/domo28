@@ -46,6 +46,8 @@ function Create-Icon {
 }
 
 # Create icons
+Create-Icon 16 "favicon-16x16.png"
+Create-Icon 32 "favicon-32x32.png"
 Create-Icon 180 "icon-180x180.png"
 Create-Icon 192 "icon-192x192.png"
 Create-Icon 512 "icon-512x512.png"

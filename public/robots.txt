@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://domo28.vercel.app/sitemap.xml
+Sitemap: https://domo28.ma/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1

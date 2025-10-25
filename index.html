@@ -14,7 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- Favicon and App Icons -->
-    <link rel="icon" type="image/jpeg" href="/images/logob.jpeg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
     <link rel="apple-touch-icon" href="/icons/icon-180x180.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-180x180.png" />
     <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-192x192.png" />
@@ -99,12 +100,16 @@
           "name": "Casablanca"
         },
         {
-          "@type": "City", 
+          "@type": "City",
           "name": "Rabat"
         },
         {
           "@type": "City",
           "name": "Marrakech"
+        },
+        {
+          "@type": "City",
+          "name": "Tanger"
         }
       ],
       "serviceType": [
@@ -123,7 +128,16 @@
         "Irrigation automatique",
         "Serre connectée",
         "Système domotique",
-        "Smart home"
+        "Smart home",
+        "Domotique Casablanca",
+        "Domotique Rabat",
+        "Domotique Marrakech",
+        "Domotique Tanger",
+        "Serrure intelligente Maroc",
+        "Caméras surveillance Maroc",
+        "Contrôle accès Maroc",
+        "Éclairage intelligent Maroc",
+        "Agriculture intelligente Maroc"
       ],
       "sameAs": [
         "https://www.instagram.com/domo_28/",
@@ -131,6 +145,82 @@
       ],
       "foundingDate": "2024",
       "slogan": "Votre Maison De Demain"
+    }
+    </script>
+
+    <!-- Additional Structured Data for Services -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Installation Serrure Intelligente Maroc",
+      "description": "Installation professionnelle de serrures intelligentes au Maroc avec reconnaissance biométrique, Face ID, empreinte digitale et NFC.",
+      "provider": {
+        "@type": "Organization",
+        "name": "DOMO28"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Casablanca"},
+        {"@type": "City", "name": "Rabat"},
+        {"@type": "City", "name": "Marrakech"},
+        {"@type": "City", "name": "Tanger"}
+      ],
+      "serviceType": "Installation serrures intelligentes"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Domotique Casablanca",
+      "description": "Services complets de domotique à Casablanca : maison connectée, caméras surveillance, contrôle d'accès, éclairage intelligent.",
+      "provider": {
+        "@type": "Organization",
+        "name": "DOMO28"
+      },
+      "areaServed": {"@type": "City", "name": "Casablanca"},
+      "serviceType": "Domotique"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Caméras Surveillance Maroc",
+      "description": "Installation de systèmes de caméras surveillance analogiques et IP au Maroc avec marques Hikvision, Ezviz.",
+      "provider": {
+        "@type": "Organization",
+        "name": "DOMO28"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Casablanca"},
+        {"@type": "City", "name": "Rabat"},
+        {"@type": "City", "name": "Marrakech"},
+        {"@type": "City", "name": "Tanger"}
+      ],
+      "serviceType": "Caméras de surveillance"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Contrôle d'Accès Maroc",
+      "description": "Systèmes de contrôle d'accès avancés avec biométrie, cartes RFID et applications mobiles au Maroc.",
+      "provider": {
+        "@type": "Organization",
+        "name": "DOMO28"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Casablanca"},
+        {"@type": "City", "name": "Rabat"},
+        {"@type": "City", "name": "Marrakech"},
+        {"@type": "City", "name": "Tanger"}
+      ],
+      "serviceType": "Contrôle d'accès"
     }
     </script>
   </head>

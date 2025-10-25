@@ -71,7 +71,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Nos Services</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>Serrures intelligentes</li>
+              <li><a href="/serrure-intelligente" className="hover:text-yellow-400 transition-colors">Serrures intelligentes Maroc</a></li>
+              <li><a href="/domotique-casablanca" className="hover:text-yellow-400 transition-colors">Domotique Casablanca</a></li>
+              <li><a href="/cameras-surveillance" className="hover:text-yellow-400 transition-colors">Caméras surveillance Maroc</a></li>
+              <li><a href="/controle-acces" className="hover:text-yellow-400 transition-colors">Contrôle d'accès Maroc</a></li>
               <li>Installation professionnelle</li>
               <li>Maintenance & SAV</li>
               <li>Conseil en domotique</li>
