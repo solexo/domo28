@@ -34,9 +34,13 @@ function Create-Icon {
     # Draw logo
     $graphics.DrawImage($originalImage, $x, $y, $logoSize, $logoSize)
     
-    # Save as PNG
+    # Save as PNG or ICO
     $outputPath = Join-Path $iconsDir $filename
-    $resizedImage.Save($outputPath, [System.Drawing.Imaging.ImageFormat]::Png)
+    if ($filename -eq "favicon.ico") {
+        $resizedImage.Save($outputPath, [System.Drawing.Imaging.ImageFormat]::Icon)
+    } else {
+        $resizedImage.Save($outputPath, [System.Drawing.Imaging.ImageFormat]::Png)
+    }
     
     # Cleanup
     $graphics.Dispose()
@@ -48,6 +52,7 @@ function Create-Icon {
 # Create icons
 Create-Icon 16 "favicon-16x16.png"
 Create-Icon 32 "favicon-32x32.png"
+Create-Icon 32 "favicon.ico"
 Create-Icon 180 "icon-180x180.png"
 Create-Icon 192 "icon-192x192.png"
 Create-Icon 512 "icon-512x512.png"
