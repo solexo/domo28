@@ -165,8 +165,8 @@ const products = [
     description: 'Interrupteurs tactiles INTA et INTB pour contrôler l\'éclairage, rideaux, TV et climatisation via WiFi et application'
   },
   {
-    id: 'sonoff-dual-r3',
-    name: 'Sonoff Dual R3 - Smart Switch Double',
+    id: 'smart-switch-double',
+    name: 'Smart Switch Intelligent Double',
     image: '/images/smart switch rideau.jpg',
     features: [
       'Application mobile',
@@ -178,11 +178,11 @@ const products = [
       '2 canaux indépendants',
       'Programmation horaire'
     ],
-    description: 'Smart switch double Sonoff Dual R3 pour contrôler deux appareils indépendamment : éclairage, rideaux, climatisation, prises via WiFi et application'
+    description: 'Smart switch double pour contrôler deux appareils indépendamment : éclairage, rideaux, climatisation, prises via WiFi et application'
   },
   {
-    id: 'sonoff-mini-r4',
-    name: 'Sonoff Mini R4 - Smart Switch Simple',
+    id: 'smart-switch-simple',
+    name: 'Smart Switch Intelligent Simple',
     image: '/images/smart switch.jpg',
     features: [
       'Application mobile',
@@ -194,7 +194,7 @@ const products = [
       'Design compact',
       'Programmation horaire'
     ],
-    description: 'Smart switch simple Sonoff Mini R4 pour contrôler éclairage, rideaux, climatisation, prises via WiFi et application mobile'
+    description: 'Smart switch simple pour contrôler éclairage, rideaux, climatisation, prises via WiFi et application mobile'
   },
   {
     id: 'cam',

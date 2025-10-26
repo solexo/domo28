@@ -13,8 +13,8 @@ const products = [
   { id: 'qm60', image: '/images/qm60.jpg' },
   { id: 'ca1-ca2', image: '/images/ca1.jpg' },
   { id: 'inta-intb', image: '/images/inta.jpg' },
-  { id: 'sonoff-dual-r3', image: '/images/smart switch rideau.jpg' },
-  { id: 'sonoff-mini-r4', image: '/images/smart switch.jpg' },
+  { id: 'smart-switch-double', image: '/images/smart switch rideau.jpg' },
+  { id: 'smart-switch-simple', image: '/images/smart switch.jpg' },
   { id: 'cam', image: '/images/cam.webp' }
 ];
 
