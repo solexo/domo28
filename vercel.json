@@ -36,10 +36,36 @@
       ]
     }
   ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
   "redirects": [
     {
       "source": "/home",
       "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/serrures-intelligentes-maroc",
+      "destination": "/serrure-intelligente",
+      "permanent": true
+    },
+    {
+      "source": "/domotique-casablanca",
+      "destination": "/domotique-casablanca",
+      "permanent": true
+    },
+    {
+      "source": "/cameras-surveillance-maroc",
+      "destination": "/cameras-surveillance",
+      "permanent": true
+    },
+    {
+      "source": "/controle-acces-maroc",
+      "destination": "/controle-acces",
       "permanent": true
     }
   ]
