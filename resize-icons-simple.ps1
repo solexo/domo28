@@ -1,7 +1,7 @@
 # Simple Icon Resizer
 Add-Type -AssemblyName System.Drawing
 
-$logoPath = "public\images\logob.jpeg"
+$logoPath = "public\images\logo_resized.png"
 $iconsDir = "public\icons"
 
 # Create icons directory
