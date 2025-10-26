@@ -7,8 +7,8 @@ $outputPath = "public\images\logo_resized.png"
 $originalImage = [System.Drawing.Image]::FromFile((Resolve-Path $sourcePath))
 
 # Target size for og:image
-$targetWidth = 2400
-$targetHeight = 1260
+$targetWidth = 1200
+$targetHeight = 630
 
 # Calculate aspect ratio
 $originalAspect = $originalImage.Width / $originalImage.Height
