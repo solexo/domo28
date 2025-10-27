@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Smartphone, Fingerprint, CreditCard, Key, Lock, Eye, Hash, Bluetooth, Camera, Lightbulb, Wifi, Tv, Wind, Moon, Zap, Cloud, Bell, Clock } from 'lucide-react';
+import { trackPurchase, trackProspect } from '../utils/facebookConversions';
 
 interface Product {
   id: string;
@@ -91,14 +92,20 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     }
   };
 
-  const handleWhatsAppContact = () => {
+  const handleWhatsAppContact = async () => {
+    // Track prospect event
+    await trackProspect();
+
     const message = encodeURIComponent(
       `Bonjour ! Je suis intéressé(e) par la ${product.name}. Pourriez-vous me donner plus d'informations et un devis ?`
     );
     window.open(`https://wa.me/212660245937?text=${message}`, '_blank');
   };
 
-  const handleWhatsAppPurchase = () => {
+  const handleWhatsAppPurchase = async () => {
+    // Track purchase event (we'll use a default value since we don't have actual pricing)
+    await trackPurchase(100, 'MAD'); // Default value, can be customized
+
     const message = encodeURIComponent(
       `Bonjour ! Je souhaite acheter la ${product.name}. Pouvez-vous me donner le prix et les modalités d'achat ?`
     );

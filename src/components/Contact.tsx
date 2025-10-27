@@ -1,8 +1,12 @@
 import React from 'react';
 import { Phone, MessageCircle, Clock, MapPin, Mail, Users } from 'lucide-react';
+import { trackProspect } from '../utils/facebookConversions';
 
 const Contact = () => {
-  const whatsappContact = () => {
+  const whatsappContact = async () => {
+    // Track prospect event
+    await trackProspect();
+
     window.open('https://wa.me/212660245937', '_blank');
   };
 
