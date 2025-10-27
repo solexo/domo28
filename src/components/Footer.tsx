@@ -121,43 +121,43 @@ const Footer = () => {
           <h3 className="text-sm sm:text-base md:text-lg font-semibold text-center mb-3 sm:mb-4 md:mb-6">Compatible avec</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-3 sm:gap-4 md:gap-6 max-w-5xl mx-auto">
             <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
-              <img src="/images/tuya.webp" alt="Tuya Smart Home" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <img src="/images/tuya.webp" alt="Tuya Smart Home" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" loading="lazy" width="32" height="32" />
               <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Tuya Smart Home</span>
             </div>
             <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
-              <img src="/images/googleassistant.webp" alt="Google Assistant" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <img src="/images/googleassistant.webp" alt="Google Assistant" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" loading="lazy" width="32" height="32" />
               <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Google Assistant</span>
             </div>
             <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
-              <img src="/images/google home.webp" alt="Google Home" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <img src="/images/google home.webp" alt="Google Home" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" loading="lazy" width="32" height="32" />
               <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Google Home</span>
             </div>
             <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
-              <img src="/images/alexa.webp" alt="Amazon Alexa" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <img src="/images/alexa.webp" alt="Amazon Alexa" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" loading="lazy" width="32" height="32" />
               <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Amazon Alexa</span>
             </div>
             <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
-              <img src="/images/smartlife.webp" alt="Smart Life" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <img src="/images/smartlife.webp" alt="Smart Life" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" loading="lazy" width="32" height="32" />
               <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Smart Life</span>
             </div>
             <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
-              <img src="/images/tplink.webp" alt="TP-Link" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <img src="/images/tplink.webp" alt="TP-Link" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" loading="lazy" width="32" height="32" />
               <span className="font-bold text-white text-xs sm:text-xs md:text-sm">TP-Link</span>
             </div>
             <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
-              <img src="/images/ewlink.webp" alt="EW Link" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <img src="/images/ewlink.webp" alt="EW Link" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" loading="lazy" width="32" height="32" />
               <span className="font-bold text-white text-xs sm:text-xs md:text-sm">EW Link</span>
             </div>
             <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
-              <img src="/images/airbnb.webp" alt="Airbnb" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <img src="/images/airbnb.webp" alt="Airbnb" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" loading="lazy" width="32" height="32" />
               <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Airbnb</span>
             </div>
             <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
-              <img src="/images/booking.webp" alt="Booking.com" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <img src="/images/booking.webp" alt="Booking.com" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" loading="lazy" width="32" height="32" />
               <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Booking.com</span>
             </div>
             <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
-              <img src="/images/sonoff.webp" alt="Sonoff" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <img src="/images/sonoff.webp" alt="Sonoff" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" loading="lazy" width="32" height="32" />
               <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Sonoff</span>
             </div>
           </div>

@@ -63,10 +63,14 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           <div className="flex items-center">
-            <img 
+            <img
               src="/images/logob.webp"
-              alt="DOMO28 Logo" 
+              alt="DOMO28 Logo"
               className="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 object-contain"
+              loading="eager"
+              fetchPriority="high"
+              width="128"
+              height="128"
             />
           </div>
 

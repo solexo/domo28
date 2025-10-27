@@ -33,6 +33,8 @@ const ScrollingProductMenu = () => {
                   src={product.image}
                   alt={`Produit ${product.id}`}
                   className="w-full h-48 object-contain bg-white rounded-lg shadow-md hover:scale-105 transition-transform duration-300 p-2"
+                  loading={index === 0 ? "eager" : "lazy"}
+                  fetchPriority={index === 0 ? "high" : "auto"}
                 />
               </div>
             ))}

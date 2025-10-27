@@ -84,43 +84,43 @@ const Services = () => {
           </p>
           <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-3 sm:gap-4 md:gap-6 max-w-6xl mx-auto">
             <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 p-4 md:p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200 dark:border-gray-700">
-              <img src="/images/tuya.webp" alt="Tuya Smart Home" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" />
+              <img src="/images/tuya.webp" alt="Tuya Smart Home" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" loading="lazy" width="64" height="64" />
               <span className="font-bold text-gray-900 dark:text-white text-xs md:text-sm text-center leading-tight">Tuya Smart Home</span>
             </div>
             <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 p-4 md:p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200 dark:border-gray-700">
-              <img src="/images/googleassistant.webp" alt="Google Assistant" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" />
+              <img src="/images/googleassistant.webp" alt="Google Assistant" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" loading="lazy" width="64" height="64" />
               <span className="font-bold text-gray-900 dark:text-white text-xs md:text-sm text-center leading-tight">Google Assistant</span>
             </div>
             <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 p-4 md:p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200 dark:border-gray-700">
-              <img src="/images/google home.webp" alt="Google Home" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" />
+              <img src="/images/google home.webp" alt="Google Home" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" loading="lazy" width="64" height="64" />
               <span className="font-bold text-gray-900 dark:text-white text-xs md:text-sm text-center leading-tight">Google Home</span>
             </div>
             <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 p-4 md:p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200 dark:border-gray-700">
-              <img src="/images/alexa.webp" alt="Amazon Alexa" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" />
+              <img src="/images/alexa.webp" alt="Amazon Alexa" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" loading="lazy" width="64" height="64" />
               <span className="font-bold text-gray-900 dark:text-white text-xs md:text-sm text-center leading-tight">Amazon Alexa</span>
             </div>
             <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 p-4 md:p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200 dark:border-gray-700">
-              <img src="/images/smartlife.webp" alt="Smart Life" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" />
+              <img src="/images/smartlife.webp" alt="Smart Life" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" loading="lazy" width="64" height="64" />
               <span className="font-bold text-gray-900 dark:text-white text-xs md:text-sm text-center leading-tight">Smart Life</span>
             </div>
             <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 p-4 md:p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200 dark:border-gray-700">
-              <img src="/images/tplink.webp" alt="TP-Link" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" />
+              <img src="/images/tplink.webp" alt="TP-Link" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" loading="lazy" width="64" height="64" />
               <span className="font-bold text-gray-900 dark:text-white text-xs md:text-sm text-center leading-tight">TP-Link</span>
             </div>
             <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 p-4 md:p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200 dark:border-gray-700">
-              <img src="/images/ewlink.webp" alt="EW Link" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" />
+              <img src="/images/ewlink.webp" alt="EW Link" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" loading="lazy" width="64" height="64" />
               <span className="font-bold text-gray-900 dark:text-white text-xs md:text-sm text-center leading-tight">EW Link</span>
             </div>
             <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 p-4 md:p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200 dark:border-gray-700">
-              <img src="/images/airbnb.webp" alt="Airbnb" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" />
+              <img src="/images/airbnb.webp" alt="Airbnb" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" loading="lazy" width="64" height="64" />
               <span className="font-bold text-gray-900 dark:text-white text-xs md:text-sm text-center leading-tight">Airbnb</span>
             </div>
             <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 p-4 md:p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200 dark:border-gray-700">
-              <img src="/images/booking.webp" alt="Booking.com" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" />
+              <img src="/images/booking.webp" alt="Booking.com" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" loading="lazy" width="64" height="64" />
               <span className="font-bold text-gray-900 dark:text-white text-xs md:text-sm text-center leading-tight">Booking.com</span>
             </div>
             <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 p-4 md:p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200 dark:border-gray-700">
-              <img src="/images/sonoff.webp" alt="Sonoff" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" />
+              <img src="/images/sonoff.webp" alt="Sonoff" className="w-12 h-12 md:w-16 md:h-16 mb-2 md:mb-3 object-contain" loading="lazy" width="64" height="64" />
               <span className="font-bold text-gray-900 dark:text-white text-xs md:text-sm text-center leading-tight">Sonoff</span>
             </div>
           </div>

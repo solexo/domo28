@@ -109,11 +109,13 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     <div className="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-110 overflow-hidden border border-gray-100 dark:border-gray-700 h-full flex flex-col cursor-pointer">
       {/* Image du produit */}
       <div className="relative h-80 overflow-hidden flex-shrink-0 bg-transparent">
-        <img 
-          src={productImages[currentImageIndex]} 
+        <img
+          src={productImages[currentImageIndex]}
           alt={product.name}
           className="w-full h-full object-contain p-6 group-hover:scale-125 transition-transform duration-500 ease-out bg-transparent cursor-pointer"
           onClick={handleImageClick}
+          loading="lazy"
+          fetchPriority={product.id === 'i29' ? "high" : "auto"}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       </div>
