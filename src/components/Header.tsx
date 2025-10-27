@@ -128,6 +128,8 @@ const Header = () => {
           <button
             className="lg:hidden text-gray-700 dark:text-gray-300"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label={isMenuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
+            title={isMenuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -173,9 +175,11 @@ const Header = () => {
               >
                 Blog
               </Link>
-              <button 
+              <button
                 onClick={toggleDarkMode}
                 className="flex items-center space-x-2 w-full text-left text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+                aria-label={isDarkMode ? 'Passer en mode clair' : 'Passer en mode sombre'}
+                title={isDarkMode ? 'Passer en mode clair' : 'Passer en mode sombre'}
               >
                 {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
                 <span>{isDarkMode ? 'Mode clair' : 'Mode sombre'}</span>

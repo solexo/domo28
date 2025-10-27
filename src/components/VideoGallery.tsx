@@ -97,6 +97,7 @@ const VideoGallery = () => {
                   allowTransparency={true}
                   className="w-full h-full"
                   loading="lazy"
+                  title={`Vidéo Instagram DOMO28 - ${video.title}`}
                 ></iframe>
                 
                 {/* Overlay avec emoji au hover */}

@@ -811,6 +811,8 @@ Ex: "i30", "smart switch", "caméra", "thermostat", "alarme"
         <button
           onClick={() => setIsOpen(true)}
           className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 bg-gradient-to-r from-yellow-500 to-yellow-600 text-white p-3 sm:p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 z-50"
+          aria-label="Ouvrir le chat assistant"
+          title="Ouvrir le chat assistant"
         >
           <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
         </button>
