@@ -119,9 +119,9 @@ const Header = () => {
             >
               {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
-            <button 
+            <button
               onClick={whatsappContact}
-              className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors flex items-center space-x-2"
+              className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors flex items-center space-x-2 font-medium"
             >
               <Phone className="w-4 h-4" />
               <span>Contacter nous !</span>
@@ -188,9 +188,9 @@ const Header = () => {
                 {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
                 <span>{isDarkMode ? 'Mode clair' : 'Mode sombre'}</span>
               </button>
-              <button 
+              <button
                 onClick={whatsappContact}
-                className="w-full bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors flex items-center justify-center space-x-2"
+                className="w-full bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors flex items-center justify-center space-x-2 font-medium"
               >
                 <Phone className="w-4 h-4" />
                 <span>Contacter nous !</span>
