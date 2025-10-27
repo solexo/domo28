@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Smartphone, Fingerprint, CreditCard, Key, Lock, Eye, Hash, Bluetooth, Camera, Lightbulb, Wifi, Tv, Wind, Moon, Zap, Cloud, Bell } from 'lucide-react';
+import { Smartphone, Fingerprint, CreditCard, Key, Lock, Eye, Hash, Bluetooth, Camera, Lightbulb, Wifi, Tv, Wind, Moon, Zap, Cloud, Bell, Clock } from 'lucide-react';
 
 interface Product {
   id: string;
@@ -55,6 +55,14 @@ const getFeatureIcon = (feature: string) => {
       return <Cloud className="w-4 h-4" />;
     case 'Notifications push':
       return <Bell className="w-4 h-4" />;
+    case 'Contrôle prises':
+      return <Zap className="w-4 h-4" />;
+    case '2 canaux indépendants':
+      return <Zap className="w-4 h-4" />;
+    case 'Design compact':
+      return <Lightbulb className="w-4 h-4" />;
+    case 'Programmation horaire':
+      return <Clock className="w-4 h-4" />;
     default:
       return <Lock className="w-4 h-4" />;
   }
@@ -67,9 +75,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const getProductImages = (productId: string) => {
     switch (productId) {
       case 'ca1-ca2':
-        return ['/images/ca1.jpg', '/images/ca2.jpg'];
+        return ['/images/ca1.webp', '/images/ca2.webp'];
       case 'inta-intb':
-        return ['/images/inta.jpg', '/images/intb.jpg'];
+        return ['/images/inta.webp', '/images/intb.webp'];
       default:
         return [product.image];
     }

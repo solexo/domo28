@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src="/images/logob.jpeg"
+                src="/images/logob.webp"
                 alt="DOMO28 Logo" 
                 className="w-32 h-32 object-contain"
               />
@@ -71,10 +71,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Nos Services</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="/serrure-intelligente" className="hover:text-yellow-400 transition-colors">Serrures intelligentes Maroc</a></li>
-              <li><a href="/domotique-casablanca" className="hover:text-yellow-400 transition-colors">Domotique Casablanca</a></li>
-              <li><a href="/cameras-surveillance" className="hover:text-yellow-400 transition-colors">Caméras surveillance Maroc</a></li>
-              <li><a href="/controle-acces" className="hover:text-yellow-400 transition-colors">Contrôle d'accès Maroc</a></li>
+              <li><a href="/serrure-intelligente" className="hover:text-yellow-400 transition-colors">Serrures intelligentes</a></li>
+              <li><a href="/domotique-casablanca" className="hover:text-yellow-400 transition-colors">Domotique</a></li>
+              <li><a href="/cameras-surveillance" className="hover:text-yellow-400 transition-colors">Caméras surveillance</a></li>
+              <li><a href="/controle-acces" className="hover:text-yellow-400 transition-colors">Contrôle d'accès</a></li>
               <li>Installation professionnelle</li>
               <li>Maintenance & SAV</li>
               <li>Conseil en domotique</li>
@@ -112,6 +112,53 @@ const Footer = () => {
                   <div className="text-sm">DOMO28</div>
                 </div>
               </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Intégrations */}
+        <div className="mt-6 sm:mt-8 md:mt-12 mb-4 sm:mb-6 md:mb-8 px-2 sm:px-4">
+          <h3 className="text-sm sm:text-base md:text-lg font-semibold text-center mb-3 sm:mb-4 md:mb-6">Compatible avec</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-3 sm:gap-4 md:gap-6 max-w-5xl mx-auto">
+            <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
+              <img src="/images/tuya.webp" alt="Tuya Smart Home" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Tuya Smart Home</span>
+            </div>
+            <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
+              <img src="/images/googleassistant.webp" alt="Google Assistant" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Google Assistant</span>
+            </div>
+            <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
+              <img src="/images/google home.webp" alt="Google Home" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Google Home</span>
+            </div>
+            <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
+              <img src="/images/alexa.webp" alt="Amazon Alexa" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Amazon Alexa</span>
+            </div>
+            <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
+              <img src="/images/smartlife.webp" alt="Smart Life" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Smart Life</span>
+            </div>
+            <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
+              <img src="/images/tplink.webp" alt="TP-Link" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <span className="font-bold text-white text-xs sm:text-xs md:text-sm">TP-Link</span>
+            </div>
+            <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
+              <img src="/images/ewlink.webp" alt="EW Link" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <span className="font-bold text-white text-xs sm:text-xs md:text-sm">EW Link</span>
+            </div>
+            <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
+              <img src="/images/airbnb.webp" alt="Airbnb" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Airbnb</span>
+            </div>
+            <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
+              <img src="/images/booking.webp" alt="Booking.com" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Booking.com</span>
+            </div>
+            <div className="flex items-center justify-center space-x-2 bg-gray-800 p-2 sm:p-3 rounded-lg">
+              <img src="/images/sonoff.webp" alt="Sonoff" className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 object-contain" />
+              <span className="font-bold text-white text-xs sm:text-xs md:text-sm">Sonoff</span>
             </div>
           </div>
         </div>

@@ -18,10 +18,10 @@ const DomotiqueCasablanca = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Domotique <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Casablanca</span>
+            Domotique <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Maroc</span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
-            Leader en domotique à Casablanca. Installation de systèmes domotiques complets : serrures intelligentes, caméras surveillance, contrôle d'accès, éclairage LED, agriculture intelligente. Devis gratuit 24h !
+            Leader en domotique au Maroc. Installation de systèmes domotiques complets : serrures intelligentes, caméras surveillance, contrôle d'accès, éclairage LED, agriculture intelligente. Devis gratuit 24h !
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <button
@@ -67,26 +67,26 @@ const DomotiqueCasablanca = () => {
         {/* Content */}
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 md:p-12">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">
-            Services Domotique Casablanca
+            Services Domotique Maroc
           </h2>
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-gray-600 dark:text-gray-300 mb-6">
-              DOMO28 est votre partenaire de confiance pour tous vos projets domotiques à Casablanca. Avec plus de 500 installations réussies, nous sommes les experts en systèmes domotiques au Maroc.
+              DOMO28 est votre partenaire de confiance pour tous vos projets domotiques au Maroc. Avec plus de 500 installations réussies, nous sommes les experts en systèmes domotiques.
             </p>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Nos Services à Casablanca</h3>
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Nos Services</h3>
             <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 mb-6">
-              <li>Installation serrures intelligentes Casablanca</li>
-              <li>Caméras surveillance Casablanca</li>
-              <li>Contrôle d'accès Casablanca</li>
-              <li>Éclairage LED intelligent Casablanca</li>
-              <li>Rideaux automatiques Casablanca</li>
-              <li>Portes automatiques Casablanca</li>
-              <li>Agriculture intelligente Casablanca</li>
-              <li>Maison connectée Casablanca</li>
+              <li>Installation serrures intelligentes</li>
+              <li>Caméras surveillance</li>
+              <li>Contrôle d'accès</li>
+              <li>Éclairage LED intelligent</li>
+              <li>Rideaux automatiques</li>
+              <li>Portes automatiques</li>
+              <li>Agriculture intelligente</li>
+              <li>Maison connectée</li>
             </ul>
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Pourquoi Choisir DOMO28 à Casablanca ?</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Notre expertise locale à Casablanca nous permet de comprendre vos besoins spécifiques et de proposer des solutions adaptées au climat et aux exigences marocaines.
+              Notre expertise au Maroc nous permet de comprendre vos besoins spécifiques et de proposer des solutions adaptées au climat et aux exigences locales.
             </p>
             <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 mb-6">
               <li>Installation sous 48h</li>
@@ -96,7 +96,7 @@ const DomotiqueCasablanca = () => {
               <li>Devis gratuit en 24h</li>
             </ul>
             <p className="text-gray-600 dark:text-gray-300">
-              Contactez-nous dès aujourd'hui pour transformer votre maison en un habitat intelligent. DOMO28 - Votre Maison De Demain à Casablanca.
+              Contactez-nous dès aujourd'hui pour transformer votre maison en un habitat intelligent. DOMO28 - Votre Maison De Demain au Maroc.
             </p>
           </div>
         </div>

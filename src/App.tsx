@@ -5,7 +5,6 @@ import Hero from './components/Hero';
 import ProductGallery from './components/ProductGallery';
 import ScrollingProductMenu from './components/ScrollingProductMenu';
 import Services from './components/Services';
-import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import VideoGallery from './components/VideoGallery';
 import Footer from './components/Footer';
@@ -15,6 +14,7 @@ import DomotiqueCasablanca from './components/DomotiqueCasablanca';
 import CamerasSurveillance from './components/CamerasSurveillance';
 import ControleAcces from './components/ControleAcces';
 import Blog from './components/Blog';
+import BlogPost from './components/BlogPost';
 
 function App() {
   return (
@@ -27,7 +27,6 @@ function App() {
               <Hero />
               <ProductGallery />
               <Services />
-              <Portfolio />
               <Contact />
               <VideoGallery />
             </>
@@ -37,6 +36,7 @@ function App() {
           <Route path="/cameras-surveillance" element={<CamerasSurveillance />} />
           <Route path="/controle-acces" element={<ControleAcces />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogPost />} />
         </Routes>
         <Footer />
         <ChatBot />

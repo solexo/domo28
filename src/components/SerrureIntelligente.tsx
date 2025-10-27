@@ -21,7 +21,7 @@ const SerrureIntelligente = () => {
             Serrure Intelligente <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Maroc</span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
-            Installation professionnelle de serrures intelligentes au Maroc. Sécurité avancée avec Face ID, empreinte digitale et NFC. Service disponible à Casablanca, Rabat, Marrakech et Tanger.
+            Installation professionnelle de serrures intelligentes au Maroc. Sécurité avancée avec Face ID, empreinte digitale et NFC.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <button
@@ -80,16 +80,6 @@ const SerrureIntelligente = () => {
               <li>Historique des accès en temps réel</li>
               <li>Intégration avec systèmes domotiques existants</li>
               <li>Alertes de sécurité instantanées</li>
-            </ul>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Service dans Toutes les Villes du Maroc</h3>
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Nous proposons nos services d'installation de serrures intelligentes dans toutes les grandes villes du Maroc :
-            </p>
-            <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 mb-6">
-              <li><strong>Serrure Intelligente Casablanca</strong> - Installation rapide et professionnelle</li>
-              <li><strong>Serrure Intelligente Rabat</strong> - Solutions de sécurité pour résidences et bureaux</li>
-              <li><strong>Serrure Intelligente Marrakech</strong> - Technologie avancée pour le secteur touristique</li>
-              <li><strong>Serrure Intelligente Tanger</strong> - Sécurité moderne pour les entreprises</li>
             </ul>
             <p className="text-gray-600 dark:text-gray-300">
               Contactez DOMO28 dès aujourd'hui pour un devis gratuit et une installation sous 48h. Notre équipe d'experts vous accompagne dans le choix de la meilleure solution de serrure intelligente adaptée à vos besoins.

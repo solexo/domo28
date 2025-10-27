@@ -5,7 +5,7 @@ Write-Host "🔧 DOMO28 Icon Resizer" -ForegroundColor Cyan
 Write-Host "================================" -ForegroundColor Cyan
 
 # Check if the logo exists
-$logoPath = "public\images\logob.jpeg"
+$logoPath = "public\images\logob.webp"
 if (-not (Test-Path $logoPath)) {
     Write-Host "❌ Logo not found at: $logoPath" -ForegroundColor Red
     exit 1

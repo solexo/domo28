@@ -1,20 +1,20 @@
 import React from 'react';
 
 const products = [
-  { id: 'i40', image: '/images/i40 (2).webp' },
-  { id: 'i30', image: '/images/i30.jpg' },
-  { id: 'i29', image: '/images/WhatsApp Image 2025-09-11 at 15.47.22.jpeg' },
-  { id: 'k10', image: '/images/WhatsApp Image 2025-09-11 at 15.47.21 (6).jpeg' },
-  { id: 'x5-cam', image: '/images/WhatsApp Image 2025-09-11 at 15.47.21 (5).jpeg' },
-  { id: 'x5-ultra', image: '/images/WhatsApp Image 2025-09-11 at 15.47.21 (4).jpeg' },
-  { id: 'k5', image: '/images/k5.jpg' },
-  { id: 'i20', image: '/images/i20.jpg' },
-  { id: 'qm50', image: '/images/qm50.jpg' },
-  { id: 'qm60', image: '/images/qm60.jpg' },
-  { id: 'ca1-ca2', image: '/images/ca1.jpg' },
-  { id: 'inta-intb', image: '/images/inta.jpg' },
-  { id: 'smart-switch-double', image: '/images/smart switch rideau.jpg' },
-  { id: 'smart-switch-simple', image: '/images/smart switch.jpg' },
+  { id: 'i40', image: '/images/i40%20(2).webp' },
+  { id: 'i30', image: '/images/i30.webp' },
+  { id: 'i29', image: '/images/WhatsApp%20Image%202025-09-11%20at%2015.47.22.webp' },
+  { id: 'k10', image: '/images/WhatsApp%20Image%202025-09-11%20at%2015.47.21%20(6).webp' },
+  { id: 'x5-cam', image: '/images/WhatsApp%20Image%202025-09-11%20at%2015.47.21%20(5).webp' },
+  { id: 'x5-ultra', image: '/images/WhatsApp%20Image%202025-09-11%20at%2015.47.21%20(4).webp' },
+  { id: 'k5', image: '/images/k5.webp' },
+  { id: 'i20', image: '/images/i20.webp' },
+  { id: 'qm50', image: '/images/qm50.webp' },
+  { id: 'qm60', image: '/images/qm60.webp' },
+  { id: 'ca1-ca2', image: '/images/ca2.webp' },
+  { id: 'inta-intb', image: '/images/intb.webp' },
+  { id: 'smart-switch-double', image: '/images/smart%20switch%20rideau.webp' },
+  { id: 'smart-switch-simple', image: '/images/smart%20switch.webp' },
   { id: 'cam', image: '/images/cam.webp' }
 ];
 

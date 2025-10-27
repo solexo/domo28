@@ -9,12 +9,12 @@ const Blog = () => {
   const articles = [
     {
       id: 1,
-      title: 'Installation Serrure Intelligente Casablanca : Guide Complet',
-      excerpt: 'Découvrez comment installer une serrure intelligente à Casablanca avec DOMO28. Guide étape par étape pour une sécurité optimale.',
+      title: 'Installation Serrure Intelligente : Guide Complet',
+      excerpt: 'Découvrez comment installer une serrure intelligente avec DOMO28. Guide étape par étape pour une sécurité optimale.',
       date: '2025-10-20',
       author: 'DOMO28 Team',
-      tags: ['serrure intelligente', 'Casablanca', 'installation'],
-      image: '/images/i20.jpg'
+      tags: ['serrure intelligente', 'installation'],
+      image: '/images/i20.webp'
     },
     {
       id: 2,
@@ -23,15 +23,15 @@ const Blog = () => {
       date: '2025-10-15',
       author: 'DOMO28 Team',
       tags: ['domotique', 'Maroc', 'tendances'],
-      image: '/images/ca1.jpg'
+      image: '/images/ca1.webp'
     },
     {
       id: 3,
-      title: 'Caméras Surveillance Rabat : Choisir le Bon Système',
-      excerpt: 'Guide pour choisir le système de caméras surveillance idéal pour votre propriété à Rabat.',
+      title: 'Caméras Surveillance : Choisir le Bon Système',
+      excerpt: 'Guide pour choisir le système de caméras surveillance idéal pour votre propriété.',
       date: '2025-10-10',
       author: 'DOMO28 Team',
-      tags: ['caméras surveillance', 'Rabat', 'sécurité'],
+      tags: ['caméras surveillance', 'sécurité'],
       image: '/images/cam.webp'
     }
   ];

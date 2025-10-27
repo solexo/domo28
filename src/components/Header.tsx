@@ -64,7 +64,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 sm:h-20">
           <div className="flex items-center">
             <img 
-              src="/images/logob.jpeg"
+              src="/images/logob.webp"
               alt="DOMO28 Logo" 
               className="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 object-contain"
             />
@@ -88,7 +88,7 @@ const Header = () => {
               to="/domotique-casablanca"
               className="px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-heading"
             >
-              Domotique Casablanca
+              Domotique Maroc
             </Link>
             <Link
               to="/cameras-surveillance"
@@ -107,12 +107,6 @@ const Header = () => {
               className="px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-heading"
             >
               Blog
-            </Link>
-            <Link
-              to="/#portfolio"
-              className="px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-heading"
-            >
-              Portfolio
             </Link>
             <button 
               onClick={toggleDarkMode}
@@ -159,7 +153,7 @@ const Header = () => {
                 to="/domotique-casablanca"
                 className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-medium"
               >
-                Domotique Casablanca
+                Domotique Maroc
               </Link>
               <Link
                 to="/cameras-surveillance"
@@ -178,12 +172,6 @@ const Header = () => {
                 className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-medium"
               >
                 Blog
-              </Link>
-              <Link
-                to="/#portfolio"
-                className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-medium"
-              >
-                Portfolio
               </Link>
               <button 
                 onClick={toggleDarkMode}

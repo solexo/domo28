@@ -5,7 +5,7 @@ const products = [
   {
     id: 'i40',
     name: 'Serrure Intelligente I40',
-    image: '/images/i40 (2).webp',
+    image: '/images/i40%20(2).webp',
     features: [
       'Application mobile',
       'Empreinte digitale',
@@ -19,7 +19,7 @@ const products = [
   {
     id: 'i30',
     name: 'Serrure Intelligente I30',
-    image: '/images/i30.jpg',
+    image: '/images/i30.webp',
     features: [
       'Application mobile',
       'Empreinte digitale',
@@ -33,7 +33,7 @@ const products = [
   {
     id: 'i29',
     name: 'Serrure Intelligente I29',
-    image: '/images/WhatsApp Image 2025-09-11 at 15.47.22.jpeg',
+    image: '/images/WhatsApp%20Image%202025-09-11%20at%2015.47.22.webp',
     features: [
       'Application mobile',
       'Empreinte digitale',
@@ -47,7 +47,7 @@ const products = [
   {
     id: 'k10',
     name: 'Serrure Intelligente K10',
-    image: '/images/WhatsApp Image 2025-09-11 at 15.47.21 (6).jpeg',
+    image: '/images/WhatsApp%20Image%202025-09-11%20at%2015.47.21%20(6).webp',
     features: [
       'Application mobile',
       'Empreinte digitale',
@@ -61,7 +61,7 @@ const products = [
   {
     id: 'x5-cam',
     name: 'Serrure Intelligente X5 CAM',
-    image: '/images/WhatsApp Image 2025-09-11 at 15.47.21 (5).jpeg',
+    image: '/images/WhatsApp%20Image%202025-09-11%20at%2015.47.21%20(5).webp',
     features: [
       'Application mobile',
       'Empreinte digitale',
@@ -74,7 +74,7 @@ const products = [
   {
     id: 'x5-ultra',
     name: 'Serrure Intelligente X5 ULTRA',
-    image: '/images/WhatsApp Image 2025-09-11 at 15.47.21 (4).jpeg',
+    image: '/images/WhatsApp%20Image%202025-09-11%20at%2015.47.21%20(4).webp',
     features: [
       'Application mobile',
       'Empreinte digitale',
@@ -87,7 +87,7 @@ const products = [
   {
     id: 'k5',
     name: 'Serrure Intelligente K5',
-    image: '/images/k5.jpg',
+    image: '/images/k5.webp',
     features: [
       'Application mobile',
       'Empreinte digitale',
@@ -100,7 +100,7 @@ const products = [
   {
     id: 'i20',
     name: 'Serrure Intelligente I20',
-    image: '/images/i20.jpg',
+    image: '/images/i20.webp',
     features: [
       'Application mobile',
       'Empreinte digitale',
@@ -114,7 +114,7 @@ const products = [
   {
     id: 'qm50',
     name: 'Serrure Intelligente QM50',
-    image: '/images/qm50.jpg',
+    image: '/images/qm50.webp',
     features: [
       'Application mobile',
       'Empreinte digitale',
@@ -127,7 +127,7 @@ const products = [
   {
     id: 'qm60',
     name: 'Serrure Intelligente QM60',
-    image: '/images/qm60.jpg',
+    image: '/images/qm60.webp',
     features: [
       'Application mobile',
       'Empreinte digitale',
@@ -140,7 +140,7 @@ const products = [
   {
     id: 'ca1-ca2',
     name: 'Contrôle d\'Accès CA1/CA2',
-    image: '/images/ca1.jpg',
+    image: '/images/ca2.webp',
     features: [
       'Application mobile',
       'Empreinte digitale',
@@ -153,7 +153,7 @@ const products = [
   {
     id: 'inta-intb',
     name: 'Interrupteurs Tactiles INTA/INTB',
-    image: '/images/inta.jpg',
+    image: '/images/intb.webp',
     features: [
       'Application mobile',
       'Connexion WiFi',
@@ -167,7 +167,7 @@ const products = [
   {
     id: 'smart-switch-double',
     name: 'Smart Switch Intelligent Double',
-    image: '/images/smart switch rideau.jpg',
+    image: '/images/smart%20switch%20rideau.webp',
     features: [
       'Application mobile',
       'Connexion WiFi',
@@ -183,7 +183,7 @@ const products = [
   {
     id: 'smart-switch-simple',
     name: 'Smart Switch Intelligent Simple',
-    image: '/images/smart switch.jpg',
+    image: '/images/smart%20switch.webp',
     features: [
       'Application mobile',
       'Connexion WiFi',

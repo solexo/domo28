@@ -19,7 +19,7 @@ const CamerasSurveillance = () => {
             Caméras Surveillance <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Maroc</span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
-            Installation professionnelle de systèmes de caméras surveillance au Maroc. Solutions analogiques et IP avec marques leaders comme Hikvision et Ezviz. Service à Casablanca, Rabat, Marrakech.
+            Installation professionnelle de systèmes de caméras surveillance au Maroc. Solutions analogiques et IP avec marques leaders comme Hikvision et Ezviz.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <button
@@ -71,14 +71,14 @@ const CamerasSurveillance = () => {
             </p>
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Nos Services de Caméras Surveillance</h3>
             <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 mb-6">
-              <li>Caméras surveillance Casablanca</li>
-              <li>Caméras surveillance Rabat</li>
-              <li>Caméras surveillance Marrakech</li>
-              <li>Caméras surveillance Tanger</li>
-              <li>Systèmes Hikvision Maroc</li>
-              <li>Caméras Ezviz Maroc</li>
-              <li>Installation caméras IP Maroc</li>
-              <li>Maintenance caméras surveillance Maroc</li>
+              <li>IP Camera Systems</li>
+              <li>Analog Camera Solutions</li>
+              <li>Night Vision Cameras</li>
+              <li>Remote Monitoring</li>
+              <li>Hikvision Systems</li>
+              <li>Ezviz Cameras</li>
+              <li>IP Camera Installation</li>
+              <li>Surveillance Maintenance</li>
             </ul>
             <p className="text-gray-600 dark:text-gray-300">
               Bénéficiez d'une installation professionnelle avec garantie et support technique. Contactez-nous pour un devis personnalisé.
