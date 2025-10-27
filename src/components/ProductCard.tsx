@@ -116,6 +116,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           onClick={handleImageClick}
           loading="lazy"
           fetchPriority={product.id === 'i29' ? "high" : "auto"}
+          width="272"
+          height="272"
+          srcSet={`${productImages[currentImageIndex]} 272w`}
+          sizes="272px"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       </div>

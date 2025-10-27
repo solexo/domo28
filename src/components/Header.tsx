@@ -71,6 +71,8 @@ const Header = () => {
               fetchPriority="high"
               width="128"
               height="128"
+              srcSet="/images/logob.webp 128w"
+              sizes="(max-width: 640px) 80px, (max-width: 768px) 112px, 128px"
             />
           </div>
 
