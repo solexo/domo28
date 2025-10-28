@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, User, Tag } from 'lucide-react';
 
@@ -59,6 +59,58 @@ const BlogPost = () => {
   ];
 
   const article = articles.find(a => a.id === parseInt(id || '0'));
+
+  useEffect(() => {
+    if (article) {
+      // Add structured data for the blog post
+      const structuredData = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": article.title,
+        "description": article.title,
+        "author": {
+          "@type": "Organization",
+          "name": article.author
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "DOMO28",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://domo28.ma/images/logo_resized.webp"
+          }
+        },
+        "datePublished": article.date,
+        "dateModified": article.date,
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": `https://domo28.ma/blog/${article.id}`
+        },
+        "image": `https://domo28.ma${article.image}`
+      };
+
+      // Remove existing blog post schema if any
+      const existingSchema = document.querySelector('script[type="application/ld+json"][data-blog-post]');
+      if (existingSchema) {
+        existingSchema.remove();
+      }
+
+      // Add new schema
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.setAttribute('data-blog-post', 'true');
+      script.textContent = JSON.stringify(structuredData);
+      document.head.appendChild(script);
+
+      // Cleanup function
+      return () => {
+        const schemaToRemove = document.querySelector('script[type="application/ld+json"][data-blog-post]');
+        if (schemaToRemove) {
+          schemaToRemove.remove();
+        }
+      };
+    }
+  }, [article]);
 
   if (!article) {
     return (

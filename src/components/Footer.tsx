@@ -8,7 +8,7 @@ const Footer = () => {
   };
 
   const openFacebook = () => {
-    window.open('https://web.facebook.com/profile.php?id=61567384930999', '_blank');
+    window.open('https://web.facebook.com/profile.php?id=61582655861695', '_blank');
   };
 
   return (
