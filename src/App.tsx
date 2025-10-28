@@ -15,6 +15,7 @@ import CamerasSurveillance from './components/CamerasSurveillance';
 import ControleAcces from './components/ControleAcces';
 import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
+import AboutUs from './components/AboutUs';
 
 const AppContent = () => {
   const location = useLocation();
@@ -42,7 +43,8 @@ const AppContent = () => {
       '/domotique-casablanca': 'Domotique Casablanca - Maison Connectée & Smart Home | DOMO28',
       '/cameras-surveillance': 'Caméras Surveillance Maroc - Installation & Sécurité | DOMO28',
       '/controle-acces': 'Contrôle d\'Accès Maroc - Systèmes Biométriques | DOMO28',
-      '/blog': 'Blog Domotique Maroc - Actualités & Conseils | DOMO28'
+      '/blog': 'Blog Domotique Maroc - Actualités & Conseils | DOMO28',
+      '/about': 'À Propos - DOMO28 | Technologies Domotiques Modernes'
     };
 
     if (titles[currentPath]) {
@@ -69,6 +71,7 @@ const AppContent = () => {
         <Route path="/controle-acces" element={<ControleAcces />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogPost />} />
+        <Route path="/about" element={<AboutUs />} />
       </Routes>
       <Footer />
       <ChatBot />
