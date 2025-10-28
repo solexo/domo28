@@ -114,12 +114,6 @@ const Header = () => {
             >
               Blog
             </Link>
-            <Link
-              to="/about"
-              className="px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-heading"
-            >
-              À Propos
-            </Link>
             <button
               onClick={toggleDarkMode}
               className="p-2 text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors"
@@ -186,12 +180,6 @@ const Header = () => {
                 className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-medium"
               >
                 Blog
-              </Link>
-              <Link
-                to="/about"
-                className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300 font-medium"
-              >
-                À Propos
               </Link>
               <button
                 onClick={toggleDarkMode}
