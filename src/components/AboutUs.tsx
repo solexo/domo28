@@ -8,7 +8,7 @@ const AboutUs: React.FC = () => {
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
             À Propos de DOMO28
           </h1>
-          <p className="text-lg text-gray-600 dark:text-gray-300">
+          <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
             Découvrez notre présentation complète sur les technologies domotiques modernes
           </p>
         </div>
