@@ -18,6 +18,15 @@
       ]
     },
     {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ]
+    },
+    {
       "source": "/sitemap.xml",
       "headers": [
         {
