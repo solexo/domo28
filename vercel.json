@@ -27,6 +27,15 @@
       ]
     },
     {
+      "source": "/images/Blue and White Modern Smart Home Technology Presentation.pdf",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "ALLOWALL"
+        }
+      ]
+    },
+    {
       "source": "/sitemap.xml",
       "headers": [
         {
