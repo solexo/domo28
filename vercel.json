@@ -54,11 +54,6 @@
       "permanent": true
     },
     {
-      "source": "/domotique-casablanca",
-      "destination": "/domotique-casablanca",
-      "permanent": true
-    },
-    {
       "source": "/cameras-surveillance-maroc",
       "destination": "/cameras-surveillance",
       "permanent": true
