@@ -6,6 +6,7 @@ interface Product {
   id: string;
   name: string;
   image: string;
+  url: string;
   features: string[];
   description: string;
 }
@@ -113,7 +114,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   };
 
   return (
-    <div className="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-110 overflow-hidden border border-gray-100 dark:border-gray-700 h-full flex flex-col cursor-pointer">
+    <div className="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-110 overflow-hidden border border-gray-100 dark:border-gray-700 h-full flex flex-col cursor-pointer" onClick={() => window.location.href = product.url}>
       {/* Image du produit */}
       <div className="relative h-80 overflow-hidden flex-shrink-0 bg-transparent">
         <img
