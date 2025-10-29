@@ -93,7 +93,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     }
   };
 
-  const handleWhatsAppContact = async () => {
+  const handleWhatsAppContact = async (e: React.MouseEvent) => {
+    e.stopPropagation();
     // Track prospect event
     await trackProspect();
 
@@ -103,7 +104,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     window.open(`https://wa.me/212660245937?text=${message}`, '_blank');
   };
 
-  const handleWhatsAppPurchase = async () => {
+  const handleWhatsAppPurchase = async (e: React.MouseEvent) => {
+    e.stopPropagation();
     // Track purchase event (we'll use a default value since we don't have actual pricing)
     await trackPurchase(100, 'MAD'); // Default value, can be customized
 
