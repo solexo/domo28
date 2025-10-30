@@ -11,7 +11,16 @@ const Hero = () => {
   };
 
   const whatsappContact = () => {
-    window.open('https://wa.me/212660245937', '_blank');
+    // Check if mobile device
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    if (isMobile) {
+      // Use whatsapp:// URL scheme for mobile apps
+      window.location.href = 'whatsapp://send?phone=212660245937';
+    } else {
+      // Use web WhatsApp for desktop
+      window.open('https://wa.me/212660245937', '_blank');
+    }
   };
 
   return (

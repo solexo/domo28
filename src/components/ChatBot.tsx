@@ -871,7 +871,18 @@ Ex: "i30", "smart switch", "caméra", "thermostat", "alarme"
           {showWhatsAppButton && (
             <div className="p-3 sm:p-4 border-t border-gray-200 dark:border-gray-700">
               <button
-                onClick={() => window.open('https://wa.me/212660245937', '_blank')}
+                onClick={() => {
+                  // Check if mobile device
+                  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+                  if (isMobile) {
+                    // Use whatsapp:// URL scheme for mobile apps
+                    window.location.href = 'whatsapp://send?phone=212660245937';
+                  } else {
+                    // Use web WhatsApp for desktop
+                    window.open('https://wa.me/212660245937', '_blank');
+                  }
+                }}
                 className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-2 sm:py-3 px-4 sm:px-6 rounded-xl font-semibold hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center space-x-2 text-sm sm:text-base touch-manipulation"
               >
                 <span>💬</span>

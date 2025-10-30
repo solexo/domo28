@@ -93,26 +93,48 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     }
   };
 
-  const handleWhatsAppContact = async (e: React.MouseEvent) => {
+  const handleWhatsAppContact = async (e: React.MouseEvent | React.TouchEvent) => {
     e.stopPropagation();
+    e.preventDefault();
     // Track prospect event
     await trackProspect();
 
     const message = encodeURIComponent(
       `Bonjour ! Je suis intéressé(e) par la ${product.name}. Pourriez-vous me donner plus d'informations et un devis ?`
     );
-    window.open(`https://wa.me/212660245937?text=${message}`, '_blank');
+
+    // Check if mobile device
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    if (isMobile) {
+      // Use whatsapp:// URL scheme for mobile apps
+      window.location.href = `whatsapp://send?phone=212660245937&text=${message}`;
+    } else {
+      // Use web WhatsApp for desktop
+      window.open(`https://wa.me/212660245937?text=${message}`, '_blank');
+    }
   };
 
-  const handleWhatsAppPurchase = async (e: React.MouseEvent) => {
+  const handleWhatsAppPurchase = async (e: React.MouseEvent | React.TouchEvent) => {
     e.stopPropagation();
+    e.preventDefault();
     // Track purchase event (we'll use a default value since we don't have actual pricing)
     await trackPurchase(100, 'MAD'); // Default value, can be customized
 
     const message = encodeURIComponent(
       `Bonjour ! Je souhaite acheter la ${product.name}. Pouvez-vous me donner le prix et les modalités d'achat ?`
     );
-    window.open(`https://wa.me/212660245937?text=${message}`, '_blank');
+
+    // Check if mobile device
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    if (isMobile) {
+      // Use whatsapp:// URL scheme for mobile apps
+      window.location.href = `whatsapp://send?phone=212660245937&text=${message}`;
+    } else {
+      // Use web WhatsApp for desktop
+      window.open(`https://wa.me/212660245937?text=${message}`, '_blank');
+    }
   };
 
   return (
@@ -163,6 +185,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <div className="space-y-3 mt-auto">
           <button
             onClick={handleWhatsAppPurchase}
+            onTouchStart={handleWhatsAppPurchase}
             className="w-full bg-gradient-to-r from-green-600 to-green-700 text-white py-3 px-4 rounded-xl font-semibold hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center space-x-2 touch-manipulation"
           >
             <span>🛒</span>
@@ -171,6 +194,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
           <button
             onClick={handleWhatsAppContact}
+            onTouchStart={handleWhatsAppContact}
             className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-4 rounded-xl font-semibold hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center space-x-2 touch-manipulation"
           >
             <span>💬</span>
