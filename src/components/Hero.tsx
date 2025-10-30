@@ -127,18 +127,18 @@ const Hero = () => {
 
           {/* Boutons d'action */}
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mt-8 sm:mt-12 md:mt-16">
-            <button 
+            <button
               onClick={scrollToProducts}
-              className="group bg-gradient-to-r from-black to-gray-800 text-white px-6 py-4 sm:px-10 sm:py-5 rounded-2xl font-semibold sm:font-bold text-base sm:text-lg hover:shadow-2xl hover:scale-110 transition-all duration-300 flex items-center space-x-3 border-2 border-yellow-400"
+              className="group bg-gradient-to-r from-black to-gray-800 text-white px-6 py-4 sm:px-10 sm:py-5 rounded-2xl font-semibold sm:font-bold text-base sm:text-lg hover:shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 flex items-center space-x-3 border-2 border-yellow-400 touch-manipulation"
             >
               <span>🚀</span>
               <span>Découvrir nos produits</span>
               <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
             </button>
-            
-            <button 
+
+            <button
               onClick={whatsappContact}
-              className="group bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-4 sm:px-10 sm:py-5 rounded-2xl font-semibold sm:font-bold text-base sm:text-lg hover:bg-green-600 hover:shadow-2xl hover:scale-110 transition-all duration-300 flex items-center space-x-3"
+              className="group bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-4 sm:px-10 sm:py-5 rounded-2xl font-semibold sm:font-bold text-base sm:text-lg hover:bg-green-600 hover:shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 flex items-center space-x-3 touch-manipulation"
             >
               <span>💬</span>
               <span>Devis GRATUIT</span>

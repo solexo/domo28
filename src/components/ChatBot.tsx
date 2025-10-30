@@ -810,7 +810,7 @@ Ex: "i30", "smart switch", "caméra", "thermostat", "alarme"
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 bg-gradient-to-r from-yellow-500 to-yellow-600 text-white p-3 sm:p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 z-50"
+          className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 bg-gradient-to-r from-yellow-500 to-yellow-600 text-white p-3 sm:p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 active:scale-95 touch-manipulation z-50"
           aria-label="Ouvrir le chat assistant"
           title="Ouvrir le chat assistant"
         >
@@ -832,7 +832,7 @@ Ex: "i30", "smart switch", "caméra", "thermostat", "alarme"
             </div>
             <button
               onClick={() => setIsOpen(false)}
-              className="text-white hover:bg-white/20 rounded-full p-1 transition-colors"
+              className="text-white hover:bg-white/20 active:bg-white/30 rounded-full p-1 transition-colors touch-manipulation"
             >
               <X className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
@@ -872,7 +872,7 @@ Ex: "i30", "smart switch", "caméra", "thermostat", "alarme"
             <div className="p-3 sm:p-4 border-t border-gray-200 dark:border-gray-700">
               <button
                 onClick={() => window.open('https://wa.me/212660245937', '_blank')}
-                className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-2 sm:py-3 px-4 sm:px-6 rounded-xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2 text-sm sm:text-base"
+                className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-2 sm:py-3 px-4 sm:px-6 rounded-xl font-semibold hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center space-x-2 text-sm sm:text-base touch-manipulation"
               >
                 <span>💬</span>
                 <span>Envoyer un message WhatsApp</span>
@@ -893,7 +893,7 @@ Ex: "i30", "smart switch", "caméra", "thermostat", "alarme"
               />
               <button
                 onClick={handleSendMessage}
-                className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-white p-2 rounded-full hover:shadow-lg transition-all duration-300"
+                className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-white p-2 rounded-full hover:shadow-lg active:scale-95 transition-all duration-300 touch-manipulation"
               >
                 <Send className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>

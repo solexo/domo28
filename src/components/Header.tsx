@@ -122,14 +122,14 @@ const Header = () => {
             </Link>
             <button
               onClick={toggleDarkMode}
-              className="p-2 text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors"
+              className="p-2 text-gray-700 dark:text-gray-300 hover:text-yellow-400 active:scale-95 transition-colors touch-manipulation"
               title={isDarkMode ? 'Mode clair' : 'Mode sombre'}
             >
               {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
             <button
               onClick={whatsappContact}
-              className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors flex items-center space-x-2 font-medium"
+              className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 active:scale-95 transition-colors flex items-center space-x-2 font-medium touch-manipulation"
             >
               <Phone className="w-4 h-4" />
               <span>Contacter nous !</span>
@@ -138,7 +138,7 @@ const Header = () => {
 
           {/* Menu mobile */}
           <button
-            className="lg:hidden text-gray-700 dark:text-gray-300"
+            className="lg:hidden text-gray-700 dark:text-gray-300 active:scale-95 touch-manipulation"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
             title={isMenuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
@@ -195,7 +195,7 @@ const Header = () => {
               </Link>
               <button
                 onClick={toggleDarkMode}
-                className="flex items-center space-x-2 w-full text-left text-gray-700 dark:text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+                className="flex items-center space-x-2 w-full text-left text-gray-700 dark:text-gray-300 hover:text-yellow-400 active:scale-95 transition-colors font-medium touch-manipulation"
                 aria-label={isDarkMode ? 'Passer en mode clair' : 'Passer en mode sombre'}
                 title={isDarkMode ? 'Passer en mode clair' : 'Passer en mode sombre'}
               >
@@ -204,7 +204,7 @@ const Header = () => {
               </button>
               <button
                 onClick={whatsappContact}
-                className="w-full bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors flex items-center justify-center space-x-2 font-medium"
+                className="w-full bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 active:scale-95 transition-colors flex items-center justify-center space-x-2 font-medium touch-manipulation"
               >
                 <Phone className="w-4 h-4" />
                 <span>Contacter nous !</span>
