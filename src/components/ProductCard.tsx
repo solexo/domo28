@@ -163,7 +163,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <div className="space-y-3 mt-auto">
           <button
             onClick={handleWhatsAppPurchase}
-            className="w-full bg-gradient-to-r from-green-600 to-green-700 text-white py-3 px-4 rounded-xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
+            className="w-full bg-gradient-to-r from-green-600 to-green-700 text-white py-3 px-4 rounded-xl font-semibold hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center space-x-2 touch-manipulation"
           >
             <span>🛒</span>
             <span>Acheter maintenant</span>
@@ -171,7 +171,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
           <button
             onClick={handleWhatsAppContact}
-            className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-4 rounded-xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
+            className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-4 rounded-xl font-semibold hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center space-x-2 touch-manipulation"
           >
             <span>💬</span>
             <span>Demander un devis</span>

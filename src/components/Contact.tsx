@@ -90,9 +90,9 @@ const Contact = () => {
               </p>
 
               <div className="space-y-4">
-                <button 
+                <button
                   onClick={whatsappContact}
-                  className="w-full bg-white text-yellow-500 py-4 px-6 rounded-xl font-bold text-lg hover:bg-gray-50 hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-3"
+                  className="w-full bg-white text-yellow-500 py-4 px-6 rounded-xl font-bold text-lg hover:bg-gray-50 hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center space-x-3 touch-manipulation"
                 >
                   <span>💬</span>
                   <span>Demander un devis gratuit</span>
